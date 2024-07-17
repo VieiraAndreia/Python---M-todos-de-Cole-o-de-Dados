@@ -1,0 +1,11 @@
+1. Busca sequencial: uma busca que passa por todos os elementos ate achar o certo, pulando de indice em indice.
+- sua rapidez depende do tamanho da lista
+
+> Algoritmo Bubble sort:  passa por todos os elementos e vai colocando os maiores valores para cima, é de ordem           quadratica(n²), ou seja, quanto maior a lista mais lento
+- é comparado sempre o primeiro elemento com o segundo e em diante
+
+2. Busca Binária: comparação do elemento com o elemento do meio da lista e caso seja > considera-se os elementos da direita e < os elementos da esquerda
+inicio=fim: não encontrado na lista
+inicio=meio: localizei o elemento
+- para rodar o programa precisa ordenar a lista 
+- é mais rápido que o buble sort 
